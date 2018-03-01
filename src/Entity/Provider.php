@@ -50,7 +50,7 @@ class Provider extends Entity implements
      *
      * @ORM\Column(type="string", length=500, nullable=false)
      */
-    private $provider = null;
+    private $name = null;
 
     /**
      * @return UserInterface
@@ -90,18 +90,18 @@ class Provider extends Entity implements
     /**
      * @return string
      */
-    public function getProvider()
+    public function getName()
     {
-        return $this->provider;
+        return $this->name;
     }
 
     /**
-     * @param $provider
+     * @param $name
      * @return $this
      */
-    public function setProvider($provider)
+    public function setName($name)
     {
-        $this->provider = $provider;
+        $this->name = $name;
         return $this;
     }
 }
