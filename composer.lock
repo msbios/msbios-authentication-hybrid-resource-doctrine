@@ -1565,16 +1565,16 @@
         },
         {
             "name": "msbios/application",
-            "version": "v1.0.8",
+            "version": "v1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/msbios/msbios-application.git",
-                "reference": "41937d817d12b8f7511d958e857c6064fdfb5374"
+                "reference": "a254963d6b5e2067c1568c2a2172625d165a3cdd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/msbios/msbios-application/zipball/41937d817d12b8f7511d958e857c6064fdfb5374",
-                "reference": "41937d817d12b8f7511d958e857c6064fdfb5374",
+                "url": "https://api.github.com/repos/msbios/msbios-application/zipball/a254963d6b5e2067c1568c2a2172625d165a3cdd",
+                "reference": "a254963d6b5e2067c1568c2a2172625d165a3cdd",
                 "shasum": ""
             },
             "require": {
@@ -1616,7 +1616,7 @@
             "keywords": [
                 "php"
             ],
-            "time": "2018-02-21T10:07:15+00:00"
+            "time": "2018-02-28T13:26:09+00:00"
         },
         {
             "name": "msbios/assetic",
@@ -1721,22 +1721,23 @@
         },
         {
             "name": "msbios/authentication-doctrine",
-            "version": "v1.0.3",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/msbios/msbios-authentication-doctrine.git",
-                "reference": "3e90568e24ef4d44848629ff1646f7c776dce6ab"
+                "reference": "2bd83640d72381db2157e265e4cc9967f153bec0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/msbios/msbios-authentication-doctrine/zipball/3e90568e24ef4d44848629ff1646f7c776dce6ab",
-                "reference": "3e90568e24ef4d44848629ff1646f7c776dce6ab",
+                "url": "https://api.github.com/repos/msbios/msbios-authentication-doctrine/zipball/2bd83640d72381db2157e265e4cc9967f153bec0",
+                "reference": "2bd83640d72381db2157e265e4cc9967f153bec0",
                 "shasum": ""
             },
             "require": {
                 "msbios/authentication": "^1.0"
             },
             "require-dev": {
+                "msbios/application": "^1.0",
                 "msbios/doctrine": "^1.0",
                 "msbios/test": "^1.0"
             },
@@ -1766,7 +1767,7 @@
             "keywords": [
                 "php"
             ],
-            "time": "2018-02-09T13:42:04+00:00"
+            "time": "2018-02-28T12:54:29+00:00"
         },
         {
             "name": "msbios/cpanel",
@@ -1985,29 +1986,28 @@
         },
         {
             "name": "msbios/doctrine",
-            "version": "v1.0.6",
+            "version": "v1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/msbios/msbios-doctrine.git",
-                "reference": "7a7ea8384e34efd183c42cd7fcfe3159d534fb9a"
+                "reference": "37b7de9dbf3ac7362cb2c0ec24466d6482e5bda2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/msbios/msbios-doctrine/zipball/7a7ea8384e34efd183c42cd7fcfe3159d534fb9a",
-                "reference": "7a7ea8384e34efd183c42cd7fcfe3159d534fb9a",
+                "url": "https://api.github.com/repos/msbios/msbios-doctrine/zipball/37b7de9dbf3ac7362cb2c0ec24466d6482e5bda2",
+                "reference": "37b7de9dbf3ac7362cb2c0ec24466d6482e5bda2",
                 "shasum": ""
             },
             "require": {
                 "doctrine/doctrine-orm-module": "^1.1",
-                "msbios/json": "~1.0",
-                "msbios/msbios": "~1.0",
-                "msbios/stdlib": "~1.0"
+                "msbios/json": "^1.0",
+                "msbios/msbios": "^1.0",
+                "msbios/stdlib": "^1.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^5.7",
-                "squizlabs/php_codesniffer": "^3.0",
-                "zendframework/zend-router": "^3.0",
-                "zendframework/zend-test": "^3.1"
+                "msbios/debug": "^1.0",
+                "msbios/test": "^1.0",
+                "zendframework/zend-router": "^3.0"
             },
             "type": "library",
             "extra": {
@@ -2022,7 +2022,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL"
+                "MIT"
             ],
             "authors": [
                 {
@@ -2035,7 +2035,7 @@
             "keywords": [
                 "php"
             ],
-            "time": "2017-10-24T10:18:18+00:00"
+            "time": "2018-02-28T14:44:40+00:00"
         },
         {
             "name": "msbios/form",
@@ -2139,19 +2139,20 @@
         },
         {
             "name": "msbios/guard",
-            "version": "v1.0.8",
+            "version": "v1.0.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/msbios/msbios-guard.git",
-                "reference": "6a185a906d520f2e7e0ac6196b8608543fa5ad26"
+                "reference": "7bd2d39186331f6ee16053cfda26451d93db79a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/msbios/msbios-guard/zipball/6a185a906d520f2e7e0ac6196b8608543fa5ad26",
-                "reference": "6a185a906d520f2e7e0ac6196b8608543fa5ad26",
+                "url": "https://api.github.com/repos/msbios/msbios-guard/zipball/7bd2d39186331f6ee16053cfda26451d93db79a1",
+                "reference": "7bd2d39186331f6ee16053cfda26451d93db79a1",
                 "shasum": ""
             },
             "require": {
+                "msbios/guard-resource": "^1.0",
                 "zendframework/zend-http": "^2.6",
                 "zendframework/zend-permissions-acl": "^2.6"
             },
@@ -2159,7 +2160,6 @@
                 "msbios/application": "^1.0",
                 "msbios/authentication": "^1.0",
                 "msbios/debug": "^1.0",
-                "msbios/guard-resource": "^1.0",
                 "msbios/resource": "^1.0",
                 "msbios/test": "^1.0"
             },
@@ -2176,7 +2176,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL"
+                "MIT"
             ],
             "authors": [
                 {
@@ -2189,7 +2189,7 @@
             "keywords": [
                 "php"
             ],
-            "time": "2017-11-26T18:49:50+00:00"
+            "time": "2018-02-28T15:32:04+00:00"
         },
         {
             "name": "msbios/guard-cpanel",
@@ -2290,6 +2290,62 @@
                 "php"
             ],
             "time": "2017-11-26T21:20:02+00:00"
+        },
+        {
+            "name": "msbios/guard-doctrine",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/msbios/msbios-guard-doctrine.git",
+                "reference": "9610c7c9b48da7f06c4b793d538374368618bf9f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/msbios/msbios-guard-doctrine/zipball/9610c7c9b48da7f06c4b793d538374368618bf9f",
+                "reference": "9610c7c9b48da7f06c4b793d538374368618bf9f",
+                "shasum": ""
+            },
+            "require": {
+                "msbios/guard": "^1.0",
+                "msbios/guard-resource-doctrine": "^1.0"
+            },
+            "require-dev": {
+                "msbios/application": "^1.0",
+                "msbios/authentication": "^1.0",
+                "msbios/authentication-doctrine": "^1.0",
+                "msbios/debug": "^1.0",
+                "msbios/doctrine": "^1.0",
+                "msbios/resource": "^1.0",
+                "msbios/resource-doctrine": "^1.0",
+                "msbios/test": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "zf": {
+                    "component": "MSBios\\Guard\\Doctrine"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "MSBios\\Guard\\Doctrine\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Judzhin Miles",
+                    "email": "info@msbios.com"
+                }
+            ],
+            "description": "MSBios Guard Doctrine",
+            "homepage": "https://github.com/msbios/msbios-guard-doctrine",
+            "keywords": [
+                "php"
+            ],
+            "time": "2018-02-28T14:17:43+00:00"
         },
         {
             "name": "msbios/guard-resource",
@@ -2711,24 +2767,25 @@
         },
         {
             "name": "msbios/portal-doctrine",
-            "version": "v1.0.3",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/msbios/msbios-portal-doctrine.git",
-                "reference": "b309f6704b302741292e1e8995c3d9fad0808de6"
+                "reference": "5b0c826703a1fa4ba6e1b8aa6b3a733a08ed7be3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/msbios/msbios-portal-doctrine/zipball/b309f6704b302741292e1e8995c3d9fad0808de6",
-                "reference": "b309f6704b302741292e1e8995c3d9fad0808de6",
+                "url": "https://api.github.com/repos/msbios/msbios-portal-doctrine/zipball/5b0c826703a1fa4ba6e1b8aa6b3a733a08ed7be3",
+                "reference": "5b0c826703a1fa4ba6e1b8aa6b3a733a08ed7be3",
                 "shasum": ""
             },
             "require": {
                 "msbios/authentication-doctrine": "^1.0",
                 "msbios/cpanel-doctrine": "^1.0",
                 "msbios/doctrine": "^1.0",
+                "msbios/guard-cpanel": "^1.0",
                 "msbios/guard-cpanel-doctrine": "^1.0",
-                "msbios/guard-resource-doctrine": "^1.0",
+                "msbios/guard-doctrine": "^1.0",
                 "msbios/portal": "^1.0",
                 "msbios/resource-doctrine": "^1.0"
             },
@@ -2762,7 +2819,7 @@
             "keywords": [
                 "php"
             ],
-            "time": "2018-02-21T09:57:36+00:00"
+            "time": "2018-02-28T15:03:36+00:00"
         },
         {
             "name": "msbios/resource",

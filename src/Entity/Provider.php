@@ -41,46 +41,16 @@ class Provider extends Entity implements
     /**
      * @var string
      *
-     * @ORM\Column(name="access_token", type="string", length=500, nullable=true)
+     * @ORM\Column(type="string", length=500, nullable=false)
      */
-    private $accessToken = null;
+    private $identifier;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="access_token_secret", type="string", length=500, nullable=true)
+     * @ORM\Column(type="string", length=500, nullable=false)
      */
-    private $accessTokenSecret = null;
-
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="refresh_token", type="string", length=500, nullable=true)
-     */
-    private $refreshToken = null;
-
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="expiresin", type="string", length=500, nullable=true)
-     */
-    private $expiresIn = null;
-
-    /**
-     * @var \DateTime
-     *
-     * @ORM\Column(name="expiresat", type="datetime", nullable=true)
-     */
-    private $expiresAt;
-
-    /**
-     * @inheritdoc
-     */
-    public function init()
-    {
-        parent::init();
-        $this->expiresAt = new \DateTime;
-    }
+    private $provider = null;
 
     /**
      * @return UserInterface
@@ -103,88 +73,35 @@ class Provider extends Entity implements
     /**
      * @return string
      */
-    public function getAccessToken()
+    public function getIdentifier()
     {
-        return $this->accessToken;
+        return $this->identifier;
     }
 
     /**
-     * @param $accessToken
-     * @return $this
+     * @param string $identifier
      */
-    public function setAccessToken($accessToken)
+    public function setIdentifier($identifier)
     {
-        $this->accessToken = $accessToken;
+        $this->identifier = $identifier;
         return $this;
     }
 
     /**
      * @return string
      */
-    public function getAccessTokenSecret()
+    public function getProvider()
     {
-        return $this->accessTokenSecret;
+        return $this->provider;
     }
 
     /**
-     * @param $accessTokenSecret
+     * @param $provider
      * @return $this
      */
-    public function setAccessTokenSecret($accessTokenSecret)
+    public function setProvider($provider)
     {
-        $this->accessTokenSecret = $accessTokenSecret;
+        $this->provider = $provider;
         return $this;
-    }
-
-    /**
-     * @return string
-     */
-    public function getRefreshToken()
-    {
-        return $this->refreshToken;
-    }
-
-    /**
-     * @param $refreshToken
-     * @return $this
-     */
-    public function setRefreshToken($refreshToken)
-    {
-        $this->refreshToken = $refreshToken;
-        return $this;
-    }
-
-    /**
-     * @return string
-     */
-    public function getExpiresIn()
-    {
-        return $this->expiresIn;
-    }
-
-    /**
-     * @param $expiresIn
-     * @return $this
-     */
-    public function setExpiresIn($expiresIn)
-    {
-        $this->expiresIn = $expiresIn;
-        return $this;
-    }
-
-    /**
-     * @return \DateTime
-     */
-    public function getExpiresAt()
-    {
-        return $this->expiresAt;
-    }
-
-    /**
-     * @param \DateTime $expiresAt
-     */
-    public function setExpiresAt($expiresAt)
-    {
-        $this->expiresAt = $expiresAt;
     }
 }
