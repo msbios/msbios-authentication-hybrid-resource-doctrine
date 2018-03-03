@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0c3dd2bd2b73f6b4c4e8ceddc57251ab",
+    "content-hash": "acfe4df40db3efe7a2b385a692b9df2d",
     "packages": [],
     "packages-dev": [
         {
@@ -1770,6 +1770,53 @@
             "time": "2018-02-28T12:54:29+00:00"
         },
         {
+            "name": "msbios/authentication-hybrid-resource",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/msbios/msbios-authentication-hybrid-resource.git",
+                "reference": "c7f276f8b173111a1ede522c302fb7989e403773"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/msbios/msbios-authentication-hybrid-resource/zipball/c7f276f8b173111a1ede522c302fb7989e403773",
+                "reference": "c7f276f8b173111a1ede522c302fb7989e403773",
+                "shasum": ""
+            },
+            "require-dev": {
+                "msbios/debug": "^1.0",
+                "msbios/portal": "^1.0",
+                "msbios/test": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "zf": {
+                    "component": "MSBios\\Authentication\\Hybrid\\Resource"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "MSBios\\Authentication\\Hybrid\\Resource\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Judzhin Miles",
+                    "email": "info@msbios.com"
+                }
+            ],
+            "description": "MSBios Authentication Hybrid Resource",
+            "homepage": "https://github.com/msbios/msbios-authentication-hybrid-resource",
+            "keywords": [
+                "php"
+            ],
+            "time": "2018-03-03T17:53:14+00:00"
+        },
+        {
             "name": "msbios/cpanel",
             "version": "v1.0.20",
             "source": {
@@ -1986,16 +2033,16 @@
         },
         {
             "name": "msbios/doctrine",
-            "version": "v1.0.7",
+            "version": "v1.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/msbios/msbios-doctrine.git",
-                "reference": "37b7de9dbf3ac7362cb2c0ec24466d6482e5bda2"
+                "reference": "a20b9a719c7321f064d06499788e1c180ab281d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/msbios/msbios-doctrine/zipball/37b7de9dbf3ac7362cb2c0ec24466d6482e5bda2",
-                "reference": "37b7de9dbf3ac7362cb2c0ec24466d6482e5bda2",
+                "url": "https://api.github.com/repos/msbios/msbios-doctrine/zipball/a20b9a719c7321f064d06499788e1c180ab281d5",
+                "reference": "a20b9a719c7321f064d06499788e1c180ab281d5",
                 "shasum": ""
             },
             "require": {
@@ -2005,9 +2052,9 @@
                 "msbios/stdlib": "^1.0"
             },
             "require-dev": {
+                "msbios/application": "^1.0",
                 "msbios/debug": "^1.0",
-                "msbios/test": "^1.0",
-                "zendframework/zend-router": "^3.0"
+                "msbios/test": "^1.0"
             },
             "type": "library",
             "extra": {
@@ -2035,7 +2082,7 @@
             "keywords": [
                 "php"
             ],
-            "time": "2018-02-28T14:44:40+00:00"
+            "time": "2018-03-01T13:04:14+00:00"
         },
         {
             "name": "msbios/form",
@@ -2397,16 +2444,16 @@
         },
         {
             "name": "msbios/guard-resource-doctrine",
-            "version": "v1.0.32",
+            "version": "v1.0.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/msbios/msbios-guard-resource-doctrine.git",
-                "reference": "9d46f8ef243740b63ea0d31f780e80defd881ff5"
+                "reference": "12369135f2e72c2d4f16f40c08c38c966dcd0ce6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/msbios/msbios-guard-resource-doctrine/zipball/9d46f8ef243740b63ea0d31f780e80defd881ff5",
-                "reference": "9d46f8ef243740b63ea0d31f780e80defd881ff5",
+                "url": "https://api.github.com/repos/msbios/msbios-guard-resource-doctrine/zipball/12369135f2e72c2d4f16f40c08c38c966dcd0ce6",
+                "reference": "12369135f2e72c2d4f16f40c08c38c966dcd0ce6",
                 "shasum": ""
             },
             "require-dev": {
@@ -2450,7 +2497,7 @@
             "keywords": [
                 "php"
             ],
-            "time": "2017-11-26T21:27:46+00:00"
+            "time": "2018-03-03T10:34:00+00:00"
         },
         {
             "name": "msbios/i18n",
@@ -4646,16 +4693,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v3.4.4",
+            "version": "v3.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "26b6f419edda16c19775211987651cb27baea7f1"
+                "reference": "067339e9b8ec30d5f19f5950208893ff026b94f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/26b6f419edda16c19775211987651cb27baea7f1",
-                "reference": "26b6f419edda16c19775211987651cb27baea7f1",
+                "url": "https://api.github.com/repos/symfony/console/zipball/067339e9b8ec30d5f19f5950208893ff026b94f7",
+                "reference": "067339e9b8ec30d5f19f5950208893ff026b94f7",
                 "shasum": ""
             },
             "require": {
@@ -4711,20 +4758,20 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-29T09:03:43+00:00"
+            "time": "2018-02-26T15:46:28+00:00"
         },
         {
             "name": "symfony/debug",
-            "version": "v4.0.4",
+            "version": "v4.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "c77bb31d0f6310a2ac11e657475d396a92e5dc54"
+                "reference": "1721e4e7effb23480966690cdcdc7d2a4152d489"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/c77bb31d0f6310a2ac11e657475d396a92e5dc54",
-                "reference": "c77bb31d0f6310a2ac11e657475d396a92e5dc54",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/1721e4e7effb23480966690cdcdc7d2a4152d489",
+                "reference": "1721e4e7effb23480966690cdcdc7d2a4152d489",
                 "shasum": ""
             },
             "require": {
@@ -4767,7 +4814,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-18T22:19:33+00:00"
+            "time": "2018-02-28T21:50:02+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -4830,16 +4877,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v3.4.4",
+            "version": "v3.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "09a5172057be8fc677840e591b17f385e58c7c0d"
+                "reference": "cc4aea21f619116aaf1c58016a944e4821c8e8af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/09a5172057be8fc677840e591b17f385e58c7c0d",
-                "reference": "09a5172057be8fc677840e591b17f385e58c7c0d",
+                "url": "https://api.github.com/repos/symfony/process/zipball/cc4aea21f619116aaf1c58016a944e4821c8e8af",
+                "reference": "cc4aea21f619116aaf1c58016a944e4821c8e8af",
                 "shasum": ""
             },
             "require": {
@@ -4875,20 +4922,20 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-29T09:03:43+00:00"
+            "time": "2018-02-12T17:55:00+00:00"
         },
         {
             "name": "symfony/yaml",
-            "version": "v4.0.4",
+            "version": "v4.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "ffc60bda1d4a00ec0b32eeabf39dc017bf480028"
+                "reference": "de5f125ea39de846b90b313b2cfb031a0152d223"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/ffc60bda1d4a00ec0b32eeabf39dc017bf480028",
-                "reference": "ffc60bda1d4a00ec0b32eeabf39dc017bf480028",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/de5f125ea39de846b90b313b2cfb031a0152d223",
+                "reference": "de5f125ea39de846b90b313b2cfb031a0152d223",
                 "shasum": ""
             },
             "require": {
@@ -4933,7 +4980,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-21T19:06:11+00:00"
+            "time": "2018-02-19T20:08:53+00:00"
         },
         {
             "name": "tracy/tracy",

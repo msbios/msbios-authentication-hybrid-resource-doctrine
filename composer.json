@@ -25,6 +25,7 @@
   },
   "require-dev": {
     "msbios/portal-doctrine": "^1.0",
+    "msbios/authentication-hybrid-resource": "^1.0",
     "msbios/test": "^1.0",
     "msbios/debug": "^1.0"
   },

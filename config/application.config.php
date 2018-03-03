@@ -6,7 +6,6 @@
 return [
     // Retrieve list of modules used in this application.
     'modules' => [
-        'MSBios\Guard\Doctrine',
         'Zend\Db',
         'Zend\I18n',
         'Zend\Navigation',
@@ -26,6 +25,9 @@ return [
         'DoctrineModule',
         'DoctrineORMModule',
         'DoctrineDataFixtureModule',
+
+        'MSBios\Authentication\Hybrid\Resource',
+        'MSBios\Guard\Doctrine',
         'MSBios\Portal\Doctrine',
         'MSBios\Db',
         'MSBios\Test',

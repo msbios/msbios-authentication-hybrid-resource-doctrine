@@ -7,6 +7,8 @@
 
 namespace MSBios\Authentication\Hybrid\Resource\Doctrine;
 
+use MSBios\Authentication\Hybrid\Resource\Record\ProviderInterface;
+
 return [
     'doctrine' => [
         'driver' => [
@@ -26,6 +28,14 @@ return [
                     Entity::class =>
                         Module::class,
                 ]
+            ],
+        ],
+        'entity_resolver' => [
+            'orm_default' => [
+                'resolvers' => [
+                    ProviderInterface::class =>
+                        Entity\Provider::class,
+                ],
             ],
         ],
     ],

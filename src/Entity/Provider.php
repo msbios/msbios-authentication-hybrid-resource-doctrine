@@ -8,6 +8,7 @@ namespace MSBios\Authentication\Hybrid\Resource\Doctrine\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use MSBios\Authentication\Hybrid\Resource\Doctrine\Entity;
+use MSBios\Authentication\Hybrid\Resource\Record\ProviderInterface;
 use MSBios\Guard\Resource\Doctrine\UserInterface;
 use MSBios\Resource\Doctrine\RowStatusableAwareInterface;
 use MSBios\Resource\Doctrine\RowStatusableAwareTrait;
@@ -24,6 +25,7 @@ use MSBios\Resource\Doctrine\TimestampableAwareTrait;
  *     )
  */
 class Provider extends Entity implements
+    ProviderInterface,
     TimestampableAwareInterface,
     RowStatusableAwareInterface
 {
